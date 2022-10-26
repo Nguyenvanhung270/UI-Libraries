@@ -11,3 +11,5 @@
 - nameMain: tên tiêu đề trong data
 - description: các thông tin mô tả trong data
 - style: chỉnh stylesheet của childList
+![alt text](https://photos.app.goo.gl/gPRQqMRmY2ggDL887)
+![alt text](https://photos.app.goo.gl/S3KwsFCfuWLwLCqf9)
