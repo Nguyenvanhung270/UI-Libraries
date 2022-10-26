@@ -7,12 +7,12 @@
 <img src="https://lh3.googleusercontent.com/b8kVjgFKoAkhjKK7yz8f0IX4tFFLve1fD5xOxQpvDcgMJtSFPGsi3_iapsl1LbOWwDACI6nbrvF9w5PgRQsTd3FccDLVtFkBap1V57Lj-R3Q-FKTRJ8NmaRJBoqfYXb4-GiGM0W4yDZW9wFXPWPIqRMc_S4_QaX0RjOAoz12Vk_rfz4NM5GR9-8pD1l-Bodq3lH9yvoLEGaumTcGix42Bzb8vIB39hD5jX5UA5eOuA2EvUBlsy_7hgRLTPGfqL6t15JtvUur-A0r3YLMn2quSRVAp2l7GufZeKbMoN1liQQ3POsX4OwDbLeWIYZbRwE5tHj2Sabr4f5siJeyN5bf49roS4EWZHFt9jKfylu7_MXcKxrY5Pw0ITp9UX3tG9abr7PcgR3Om-R4IWJUom0BfCQ6Z2jtihqOh1C8O9JTOf-mJhaTfRd6oLtb0rb5JGtE1slrJMAv2sr4GibK3IprBvv1d_2NYl_xYnNOsycv4grqapWdysNgiJfpk0aN6RwcC5Zr7nQDWmRrezBzCnq5_djWpEjOFMNjV3-9sudLe57vHx1p-SR6FYn7WQmzjFOH7RdB5inNo9J8D4lzM1ZLF4pP2GuqsCCZeCO3u5PsIHVjTH78rrUeErBBJ0EDnWgGgLllgJB9I1uuxCV37eC2__Q65c8GT1d9TcAx_znnssFaeww6iPs8oBGWh-bCWO0i0se2z6OPjZ5GYpGJwOLeB36_oR4lHHJlcx7iT5TlVAhvZqkHAF6HbTutEWlDUXRnlZ53gsXNpP4WCKUWaGZq_OOia2yRZJXfUh_-nx55p2Q-M32eAqxe7qH8sEPxHraspL75GghMadB3y1uqXDq9xJtL-5fgKdlnWjzv_IMeQF8-Ml4R_Dys9rTGAV-iiddL1ekit-jR5LHDYa5QGECBZwWsog2aLfxSsW4hnsCYeOSA=w619-h473-no?authuser=0">
 
 ## Tham số
-- imageContent: tên trường hình ảnh trong data
-- onPress: hàm khi kích hoạt nút
-- buttonIcon: icon nút bấm (sử dụng react-native-vector-icons/MaterialCommunityIcons)
-- iconColor: màu nút bấm
-- nameMain: tên tiêu đề trong data
-- description: các thông tin mô tả trong data
-- style: chỉnh stylesheet của childList
+- **imageContent:** tên trường hình ảnh trong data
+- **onPress:** hàm khi kích hoạt nút
+- **buttonIcon:** icon nút bấm (sử dụng react-native-vector-icons/MaterialCommunityIcons)
+- **iconColor:** màu nút bấm
+- **nameMain:** tên tiêu đề trong data
+- **description:** các thông tin mô tả trong data
+- **style:** chỉnh stylesheet của childList
 
 
