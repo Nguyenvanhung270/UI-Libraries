@@ -23,6 +23,7 @@
 - **buttonIcon:** icon nút bấm (sử dụng react-native-vector-icons/MaterialCommunityIcons)
 - **buttonColor:** màu sắc của icon nút bấm
 - **sizeButtonIcon:** kích thước icon nút bấm
+
   ![ChildList_Icon_Code](https://user-images.githubusercontent.com/63685448/199938738-253f9678-6c6d-45b8-9b05-7cdb92ed0c82.jpg)
   ![ChildList_Icon](https://user-images.githubusercontent.com/63685448/199938752-2fafbf66-d333-40a0-8c1a-abe393e71e04.PNG)
 ## ChildCard
