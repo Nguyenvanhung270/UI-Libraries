@@ -9,5 +9,4 @@
 - **nameMain:** tên tiêu đề trong data
 - **description:** các thông tin mô tả trong data
 - **style:** chỉnh stylesheet của childList
-## Sử dụng
 
