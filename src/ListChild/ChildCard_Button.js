@@ -1,18 +1,11 @@
 import React, { Component } from 'react';
 import { Image, StyleSheet, View, Text, TouchableHighlight } from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-const ChildCard_Button =({imageContent,index,onPress,buttonIcon,iconColor='#000',nameMain,description=[],style})=>{
-    const renderDescripton = ()=>{
-        description.map((value)=>{
-            return(
-                <Text style={styles.ItemName}>{value}</Text>
-            );
-        })
-    }
+const ChildCard_Button =({imageContent,index,onPress,buttonIcon,iconColor='#000',nameMain,description=[],styleChildCard,styleNameMain,styleDescription})=>{
     return(
         <View>
             <View
-                style={[styles.card,style]}
+                style={[styles.card,styleChildCard]}
             >
                 <View style={{flex:1,flexDirection:'row'}}>
                     {imageContent?
@@ -22,10 +15,10 @@ const ChildCard_Button =({imageContent,index,onPress,buttonIcon,iconColor='#000'
                         <View></View>
                     }
                     <View style={{flex:5,flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
-                        <Text style={styles.ItemName}>{nameMain}</Text>
+                        <Text style={[styles.ItemName,styleNameMain]}>{nameMain}</Text>
                         {description.map((value)=>{
                             return(
-                                <Text style={styles.ItemInfo}>{value}</Text>
+                                <Text style={[styles.ItemInfo,styleDescription]}>{value}</Text>
                             );
                         })}
                     </View>
@@ -72,7 +65,7 @@ const styles = StyleSheet.create({
     ItemName:{
         fontSize:16,
         color:'#000',
-        fontWeight:'600'
+        fontWeight:'bold'
     },
     ItemInfo:{
         fontSize:14,

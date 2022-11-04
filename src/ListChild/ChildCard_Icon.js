@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, TouchableHighlight } from 'react-native';
+import {Image, StyleSheet, View, Text, TouchableHighlight } from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-const ChildCard_Icon =({iconMainContent,iconMainColor,index,onPress,buttonIcon,buttonColor='#000',nameMain,description=[],style})=>{
+const ChildCard_Icon =({imageContent,styleImage,iconMainContent,iconMainColor='#000',sizeMainIcon=50,index,onPress,buttonIcon,buttonColor='#000',sizeButtonIcon=22,nameMain,description=[],styleChildCard,styleNameMain,styleDescription})=>{
     return(
         <View>
             <View
-                style={[styles.card,style]}
+                style={[styles.card,styleChildCard]}
             >
                 <View style={{flex:1,flexDirection:'row'}}>
                     {iconMainContent?
@@ -13,17 +13,21 @@ const ChildCard_Icon =({iconMainContent,iconMainColor,index,onPress,buttonIcon,b
                             <MaterialCommunityIcons
                                 name={iconMainContent}
                                 color={iconMainColor}
-                                size={70}
+                                size={sizeMainIcon}
                             >
                             </MaterialCommunityIcons>
                         </View>:
+                        imageContent?
+                        <View style={{flex:1.5,justifyContent:'center',alignItems:'center',borderBottomLeftRadius:10,borderTopLeftRadius:10}}>
+                            <Image source={{uri:`${imageContent}`}} style={[styles.image,styleImage]}></Image>
+                        </View>:
                         <View></View>
                     }
-                    <View style={{flex:5,flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
-                        <Text style={styles.ItemName}>{nameMain}</Text>
+                    <View style={{flex:5,flexDirection:'column',justifyContent:'center'}}>
+                        <Text style={[styles.ItemName,styleNameMain]}>{nameMain}</Text>
                         {description.map((value)=>{
                             return(
-                                <Text style={styles.ItemInfo}>{value}</Text>
+                                <Text style={[styles.ItemInfo,styleDescription]}>{value}</Text>
                             );
                         })}
                     </View>
@@ -36,7 +40,7 @@ const ChildCard_Icon =({iconMainContent,iconMainColor,index,onPress,buttonIcon,b
                             <MaterialCommunityIcons
                                 name={buttonIcon}
                                 color={buttonColor}
-                                size={22}
+                                size={sizeButtonIcon}
                             >
                             </MaterialCommunityIcons>
                         </TouchableHighlight>:
@@ -63,14 +67,14 @@ const styles = StyleSheet.create({
         paddingRight:10
     },
     image:{
-        height:70,
-        width:70,
+        height:60,
+        width:60,
         borderRadius:50,
     },
     ItemName:{
         fontSize:16,
         color:'#000',
-        fontWeight:'600'
+        fontWeight:'bold'
     },
     ItemInfo:{
         fontSize:14,
