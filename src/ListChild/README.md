@@ -18,7 +18,7 @@
 - **styleImage:** chỉnh stylesheet của hình ảnh  
 # Sử dụng
 ## Data
-
+![DataList](https://user-images.githubusercontent.com/63685448/199938397-aba655e7-5840-4e6b-bf30-7685d479c75f.jpg)
 ## ChildList_Icon
 - **buttonIcon:** icon nút bấm (sử dụng react-native-vector-icons/MaterialCommunityIcons)
 - **buttonColor:** màu sắc của icon nút bấm
