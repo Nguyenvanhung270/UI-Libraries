@@ -11,7 +11,7 @@
 - **style:** chỉnh stylesheet của childList
 ## Sử dụng
 # Data
--   {
+   {
         "name": "Miyah Myles",
         "email": "miyah.myles@gmail.com",
         "position": "Data Entry Clerk",
@@ -31,4 +31,3 @@
         "photo":"https://yt3.ggpht.com/ytc/AMLnZu-ZpKc5TCxDsIK5nAwoB-SOnGs2J0EZZvBQOv4Fcw=s900-c-k-c0x00ffffff-no-rj"
     },
    
-
