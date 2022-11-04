@@ -23,4 +23,9 @@
 - **buttonIcon:** icon nút bấm (sử dụng react-native-vector-icons/MaterialCommunityIcons)
 - **buttonColor:** màu sắc của icon nút bấm
 - **sizeButtonIcon:** kích thước icon nút bấm
+  ![ChildList_Icon_Code](https://user-images.githubusercontent.com/63685448/199938738-253f9678-6c6d-45b8-9b05-7cdb92ed0c82.jpg)
+  ![ChildList_Icon](https://user-images.githubusercontent.com/63685448/199938752-2fafbf66-d333-40a0-8c1a-abe393e71e04.PNG)
 ## ChildCard
+  ![ListCard_Code](https://user-images.githubusercontent.com/63685448/199938765-9eb50d92-e6e9-4bcf-bcd5-d9e06bd9e915.PNG)
+  ![ListCard](https://user-images.githubusercontent.com/63685448/199938775-d3b6bdc5-8e08-440c-beca-18f697f119d7.PNG)
+
