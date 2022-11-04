@@ -5,7 +5,6 @@
 - **imageContent:** tên trường hình ảnh trong data
 - **buttonIcon:** icon nút bấm (sử dụng react-native-vector-icons/MaterialCommunityIcons)
 - **iconColor:** màu nút bấm
-- 
 - **iconMainContent:** icon childCard (sử dụng react-native-vector-icons/MaterialCommunityIcons - được ưu tiên)
 - **iconMainColor:** màu icon childCard
 - **sizeMainIcon:** kích thước icon childCard
