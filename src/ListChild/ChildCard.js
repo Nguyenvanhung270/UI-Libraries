@@ -1,8 +1,23 @@
 import React, { Component } from 'react';
 import { Image, StyleSheet, View, Text, TouchableHighlight } from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+const ChildCard =({
+    buttonIcon,
+    buttonColor,
+    sizeButtonIcon,
 
-const ChildCard =({imageContent,styleImage,iconMainContent,iconMainColor='#000',sizeMainIcon=60,index,onPress,nameMain,description=[],styleChildCard,styleNameMain,styleDescription})=>{
+    imageContent,
+    styleImage,
+    iconMainContent,
+    iconMainColor='#000',
+    sizeMainIcon=60,
+    index,
+    onPress,
+    nameMain,
+    description=[],
+    styleChildCard,
+    styleNameMain,
+    styleDescription})=>{
     return(
         <View>
             <TouchableHighlight
@@ -35,6 +50,21 @@ const ChildCard =({imageContent,styleImage,iconMainContent,iconMainColor='#000',
                             );
                         })}
                     </View>
+                    {buttonIcon?
+                        <TouchableHighlight 
+                            style={{flex:1,justifyContent:'center',alignItems:'center',borderBottomRightRadius:10,borderTopRightRadius:10}}
+                            onPress={onPress}
+                            underlayColor='default'
+                        >
+                            <MaterialCommunityIcons
+                                name={buttonIcon}
+                                color={buttonColor}
+                                size={sizeButtonIcon}
+                            >
+                            </MaterialCommunityIcons>
+                        </TouchableHighlight>:
+                        <View></View>
+                    }
                 </View>
                 
             </TouchableHighlight>
