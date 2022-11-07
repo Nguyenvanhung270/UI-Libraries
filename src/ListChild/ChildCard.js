@@ -41,7 +41,7 @@ const ChildCard =({
                         </View>:
                         <View></View>
                     }
-                    <View style={{flex:6,flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
+                    <View style={{flex:5,flexDirection:'column',justifyContent:'center'}}>
                         
                         <Text style={[styles.ItemName,styleNameMain]}>{nameMain}</Text>
                         {description.map((value)=>{
