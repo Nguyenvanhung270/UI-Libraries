@@ -46,7 +46,7 @@ const ChildCard =({
                         <Text style={[styles.ItemName,styleNameMain]}>{nameMain}</Text>
                         {description.map((value)=>{
                             return(
-                                <Text style={[styles.ItemInfo,styleDescription]}>{value}</Text>
+                                <Text numberOfLines={3} style={[styles.ItemInfo,styleDescription]}>{value}</Text>
                             );
                         })}
                     </View>
